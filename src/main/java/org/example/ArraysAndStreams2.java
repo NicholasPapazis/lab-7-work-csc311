@@ -46,7 +46,7 @@ public class ArraysAndStreams2 {
               .collect(Collectors.joining(", ")));
 
       // number of strings that contain more than 5 characters (case-insensitive)
-      System.out.printf("number of strings that contain more than 5 characters (case-insensitive): %s%n",
+      System.out.printf("number of strings that contain more than 5 characters (case-insensitive): %s%n" ,
               Arrays.stream(strings)
                       .filter(s -> s.length() > 5)
                       .count());
